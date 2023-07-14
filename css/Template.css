@@ -1,0 +1,147 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+ }
+ 
+ img {
+     max-width: 100%;
+ }
+ 
+ .header {
+     display: grid;
+     grid-template-columns: 85%;
+     justify-content: center;
+     background-color: #A4A4A4;
+ }
+ 
+ .header-width {
+     display: grid;
+     grid-template-columns: auto auto;
+     grid-template-rows: 50px 90px;
+     margin-top: 25px;
+ }
+ 
+ .photo {
+     width: 17%;
+ }
+ 
+ .bio {
+     display: grid;
+     justify-content: end;
+     line-height: 25px;
+ }
+ 
+ a button {
+     padding: 5px 8px;
+     color: white;
+     background-color: #0E86D4;
+     border: 0;
+     cursor: pointer;
+ }
+ 
+ .menu {
+     display: grid;
+     grid-template-columns: auto auto auto;
+     justify-content: center;
+     margin-bottom: 25px;
+ }
+ 
+ .menurow {
+     display: grid;
+     grid-template-columns: auto auto auto;
+     column-gap: 25px;
+     background-color: grey;
+     padding: 10px 28px;
+     color: white;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .container {
+     display: grid;
+     justify-content: center;
+     grid-template-columns: 85%;
+ }
+ 
+ .projects-header {
+     text-align: center;
+     margin: 30px;
+ }
+ 
+ .images {
+     display: grid;
+     grid-template-columns: 33.3333333% 33.3333333% 33.3333333%;
+     grid-template-rows: auto auto;
+     row-gap: 40px;
+     column-gap: 20px;
+ }
+ 
+ .images div {
+     line-height: 25px;
+ }
+ 
+ .about-footer {
+     display: grid;
+     justify-content: center;
+     margin-top: 35px;
+     grid-template-columns: 85%;
+     background-color: gray;
+ }
+ 
+ .about-footer-width {
+     display: grid;
+     grid-template-columns: 50% 50%;
+     column-gap: 15px;
+     margin-bottom: 35px;
+ }
+ 
+ .abouttxt {
+     text-align: center;
+     margin: 25px;
+ }
+ 
+ .personal {
+     display: grid;
+     background-color: white;
+     padding-bottom: 20px;
+ }
+ 
+ .education {
+     display: grid;
+     background-color: #262626;
+     color: white;
+     padding-bottom: 20px;
+ }
+ 
+ .personal h4 {
+     text-align: center;
+     padding: 15px;
+ }
+ 
+ .bold {
+     font-weight: 600;
+ }
+ 
+ .projects-header {
+     font: size 25px;
+ }
+ 
+ .education h4 {
+     text-align: center;
+     padding: 15px;
+ }
+ 
+ .list {
+     margin-left: 35px;
+     line-height: 30px;
+ }
+ 
+ footer p {
+     text-align: center;
+     padding: 25px;
+ }
